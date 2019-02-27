@@ -224,8 +224,8 @@ public function renderRelLinks(LengthAwarePaginator $paginator, $full = false)
 
 ```html
 <!-- Example output: -->
-<link rel="prev" href="http://example.com/news/page/2" />
-<link rel="next" href="http://example.com/news/page/4" />
+<link rel="prev" href="http://example.com/news/page/2">
+<link rel="next" href="http://example.com/news/page/4">
 ```
 
 ## Tests

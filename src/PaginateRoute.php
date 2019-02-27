@@ -269,10 +269,10 @@ class PaginateRoute
 
             switch ($pageNum - $this->currentPage()) {
                 case -1:
-                    $linkItems .= "<link rel=\"prev\" href=\"{$url}\" />";
+                    $linkItems .= "<link rel=\"prev\" href=\"{$url}\">";
                     break;
                 case 1:
-                    $linkItems .= "<link rel=\"next\" href=\"{$url}\" />";
+                    $linkItems .= "<link rel=\"next\" href=\"{$url}\">";
                     break;
             }
         }
