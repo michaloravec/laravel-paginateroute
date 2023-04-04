@@ -16,5 +16,8 @@ return [
     */
 
     'mode' => 'normal',
+    
+    // Allow additional query params
+    'allow_additional_query_string' => true,
 
 ];
